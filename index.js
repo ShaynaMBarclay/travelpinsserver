@@ -6,7 +6,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: ["http://localhost:5173"], 
+  origin: ["https://pathfinderstale.netlify.app/"], 
   methods: ["GET", "POST"],
 }));
 app.use(express.json());
